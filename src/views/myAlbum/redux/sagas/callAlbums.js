@@ -14,6 +14,7 @@ export default function* callAlbums() {
     const albums = yield call(fetchAlbumsFromApi);
     yield put(fetchAlbumsSuccessAction(albums));
   } catch (e) {
+    // eslint-disable-next-line no-console
     console.error(e.toString());
     yield put(fetchAlbumsFailureAction());
   }

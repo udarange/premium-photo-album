@@ -14,6 +14,7 @@ export default function* callPhotos() {
     const photos = yield call(fetchPhotosFromApi);
     yield put(fetchPhotosSuccessAction(photos));
   } catch (e) {
+    // eslint-disable-next-line no-console
     console.error(e.toString());
     yield put(fetchPhotosFailureAction());
   }
