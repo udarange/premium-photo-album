@@ -1,13 +1,8 @@
-.album-card {
-    /*height: 300px;*/
-    /*background: antiquewhite;*/
-}
-
 .text-ellipsis {
-    font-size: 17px;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    overflow-wrap: break-word;
+  font-size: 17px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: break-word;
 }

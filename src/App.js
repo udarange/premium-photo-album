@@ -18,9 +18,9 @@ function App() {
 
   return (
     <div className="mt-4">
-      <Header />
-      <main className="mb-5 container">
-        <Router>
+      <Router>
+        <Header />
+        <main className="mb-5 container">
           <Switch>
             <Route exact path="/albums" component={MyAlbums} />
             <Route exact path="/albums/:id" component={ViewAlbums} />
@@ -28,9 +28,9 @@ function App() {
               <Redirect to="/albums" />
             </Route>
           </Switch>
-        </Router>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+      </Router>
     </div>
   );
 }

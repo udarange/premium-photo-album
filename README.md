@@ -1,4 +1,4 @@
-# hit-music
+# premium-photo-album
 
 
 ## Getting Started
