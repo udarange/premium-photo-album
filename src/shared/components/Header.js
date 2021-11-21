@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className="border-bottom">
-      <div className="container d-flex flex-sm-row flex-column justify-content-sm-between align-items-sm-center">
+      <div className="container d-flex flex-md-row flex-column justify-content-md-between align-items-md-center">
         {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
         <h1 onClick={() => history.push('/albums')}>My Albums</h1>
         <div className="d-flex flex-row align-items-center mb-2">
