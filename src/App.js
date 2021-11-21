@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="mt-4">
       <Header />
-      <main className="flex-fill">
+      <main className="mb-5 container ">
         <Router>
           <Switch>
             <Route exact path="/albums" component={MyAlbums} />
