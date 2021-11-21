@@ -20,7 +20,7 @@ export default function MyAlbums() {
   }
 
   return (
-    <div className="mt-3 row">
+    <div className="mt-3 row" style={{ paddingLeft: 11, paddingRight: 11 }}>
       {albums
         .sort((a, b) => {
           if (sortBy === 'title-z-a') {
