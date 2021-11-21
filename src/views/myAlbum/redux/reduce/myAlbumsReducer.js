@@ -9,10 +9,10 @@ import {
 } from '../actions/actionType';
 
 const initialState = {
-  fetchAlbumsIsLoading: false,
+  fetchAlbumsIsLoading: true,
   albums: [],
   fetchAlbumsHasError: false,
-  fetchPhotosIsLoading: false,
+  fetchPhotosIsLoading: true,
   photos: [],
   fetchPhotosHasError: false,
   sortBy: 'title-a-z',

@@ -27,9 +27,10 @@ export function fetchAlbumsFailureAction() {
   };
 }
 
-export function fetchPhotosAction() {
+export function fetchPhotosAction(albumIds) {
   return {
     type: FETCH_PHOTOS,
+    albumIds,
   };
 }
 
