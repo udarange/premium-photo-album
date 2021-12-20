@@ -4,7 +4,7 @@ import { fetchAlbumsFailureAction, fetchAlbumsSuccessAction } from '../actions/m
 
 function fetchAlbumsFromApi() {
   return axios
-    .get(process.env.REACT_APP_FETCH_ALBUMS)
+    .get(`${process.env.REACT_APP_FETCH_ALBUMS}?userId=${process.env.REACT_APP_USERID}`)
     .then((response) => response.data)
     .catch((error) => error);
 }

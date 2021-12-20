@@ -10,8 +10,9 @@ export default function Header() {
   return (
     <header className="border-bottom">
       <div className="container d-flex flex-md-row flex-column justify-content-md-between align-items-md-center">
-        {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
-        <h1 onClick={() => history.push('/albums')}>My Albums</h1>
+        <button type="button" className="btn p-0" onClick={() => history.push('/albums')}>
+          <h1>My Albums</h1>
+        </button>
         <div className="d-flex flex-row align-items-center mb-2">
           <p className="m-0 text-nowrap mr-2">Sort By:</p>
           <select
